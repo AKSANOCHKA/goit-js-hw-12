@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search with Pagination</title>
+    <script type="module" crossorigin src="/goit-js-hw-12/index.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-12/assets/vendor-DRgUjrIE.js">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/vendor-BUU1fCVV.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-12/assets/index-uB3eFqYA.css">
+  </head>
+  <body>
+    <!-- Header з формою пошуку -->
+    <header class="header">
+      <div class="container">
+        <form class="form">
+          <label>
+            <input
+              type="text"
+              name="search-text"
+              placeholder="Search images..."
+              required
+            />
+          </label>
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+
+    <!-- Головний контент -->
+    <main class="main">
+      <div class="container">
+        <!-- Галерея зображень -->
+        <ul class="gallery"></ul>
+
+        <!-- Кнопка Load More -->
+        <div class="load-more-container">
+          <button type="button" class="load-more-btn">Load more</button>
+        </div>
+
+        <!-- Лоадер -->
+        <div class="loader-container">
+          <span class="loader"></span>
+        </div>
+      </div>
+    </main>
+
+  </body>
+</html>
