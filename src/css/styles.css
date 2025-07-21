@@ -1,11 +1,12 @@
-/*Reset і баові стилі*/
+/* Reset і базові стилі */
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, sans-serif;
   line-height: 1.5;
   color: #212121;
   background-color: #fafafa;
@@ -27,21 +28,21 @@ a {
   text-decoration: none;
 }
 
-/*Контейнер*/
+/* Контейнер */
 .container {
-  max-width: 1200;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 16px;
 }
 
-/*Header*/
+/* Header */
 .header {
   background-color: #4f46e5;
   padding: 16px 0;
   margin-bottom: 32px;
 }
 
-/*Форма пошуку*/
+/* Форма пошуку */
 .form {
   display: flex;
   justify-content: center;
@@ -64,7 +65,7 @@ a {
 }
 
 .form input:focus {
-  box-shadow: 0 0 0 2px rgba((255), 255, 255, 0.5);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
 }
 
 .form input::placeholder {
@@ -222,7 +223,6 @@ a {
   0% {
     transform: rotate(0deg);
   }
-
   100% {
     transform: rotate(360deg);
   }
